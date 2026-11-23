@@ -1,7 +1,7 @@
 # Zentx Robotics
 
-Site PHP com fotos e vídeo do projeto.
+Site PHP. Execute php -S localhost:8080 na raiz e abra http://localhost:8080.
 
-Execute com PHP 8.2 ou superior usando php -S localhost:8080 -t . api/index.php na raiz.
+Template em api/index.php. Estilos em style.css, galeria em app.js. Logo obtida do perfil @zentxrobotics. Cores aproximadas extraídas visualmente da logo.
 
-Template em api/index.php, estilos em style.css e galeria em app.js. Vercel usa vercel-php 0.9.0, um runtime comunitário.
+Hospedado na Vercel usando vercel-php 0.9.0, runtime comunitário.
