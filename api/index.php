@@ -1,3 +1,8 @@
+<?php
+declare(strict_types=1);
+header('Content-Type: text/html; charset=utf-8');
+header('X-Zentx-Renderer: PHP');
+?>
 <!doctype html>
 <html lang="pt-BR">
 <head>
@@ -6,7 +11,7 @@
 <meta name="description" content="Conheça a Zentx Robotics e veja a robótica de serviço no ambiente de treino.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="/style.css">
 </head>
 <body>
 <header><a class="brand" href="#inicio" aria-label="Zentx Robotics início">ZENT<span>X</span><small>ROBOTICS</small></a><nav aria-label="Principal"><a href="#experiencia">Experiência</a><a href="#em-acao">Em ação</a><a class="contact" href="https://www.instagram.com/zentxrobotics/" target="_blank" rel="noopener">Fale com a Zentx</a></nav></header>
@@ -24,5 +29,5 @@
 <section class="gallery-section"><div class="gallery-heading"><p class="eyebrow">OUTROS ÂNGULOS</p><h2>Veja de perto.</h2><p>Toque nas imagens para ampliar.</p></div><div class="gallery"><button data-image="26.webp" aria-label="Ampliar foto do rosto do robô"><img src="26.webp" alt="Tela expressiva e bandejas do robô" loading="lazy"></button><button data-image="17.webp" aria-label="Ampliar foto do ambiente"><img src="17.webp" alt="Robô na academia com jardim interno e luz natural" loading="lazy"></button><button data-image="30.webp" aria-label="Ampliar vista frontal"><img src="30.webp" alt="Robô em frente à parede verde da academia" loading="lazy"></button></div></section>
 <section class="cta"><p class="eyebrow">VAMOS CONVERSAR</p><h2>O FUTURO PODE<br>CHEGAR <em>MAIS PERTO.</em></h2><a class="button dark" href="https://www.instagram.com/zentxrobotics/" target="_blank" rel="noopener">Converse com a Zentx no Instagram</a></section>
 </main><footer><a class="brand" href="#inicio">ZENT<span>X</span><small>ROBOTICS</small></a><p>Robótica de serviço.</p><a href="https://www.instagram.com/zentxrobotics/">@zentxrobotics</a></footer>
-<dialog aria-label="Imagem ampliada"><button class="close" aria-label="Fechar imagem">Fechar ×</button><img alt=""></dialog><script src="app.js"></script>
+<dialog aria-label="Imagem ampliada"><button class="close" aria-label="Fechar imagem">Fechar ×</button><img alt=""></dialog><script src="/app.js"></script>
 </body></html>

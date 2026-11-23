@@ -1,14 +1,7 @@
 # Zentx Robotics
 
-Site estático com fotos e vídeo fornecidos para o projeto. HTML, CSS e JavaScript sem dependências ou etapa de build.
+Site PHP com fotos e vídeo do projeto.
 
-## Executar
-Na pasta do projeto, execute `python -m http.server 8080` e abra http://localhost:8080.
+Execute com PHP 8.2 ou superior usando php -S localhost:8080 -t . api/index.php na raiz.
 
-## Editar
-Conteúdo em index.html, aparência em style.css e galeria em app.js.
-Os arquivos WebP e MP4 são os materiais do site.
-
-## Publicar
-Vercel com framework Other, sem comando de build, servindo a raiz.
-O Instagram é o canal de contato. A paleta e a apresentação tipográfica são propostas visuais.
+Template em api/index.php, estilos em style.css e galeria em app.js. Vercel usa vercel-php 0.9.0, um runtime comunitário.
